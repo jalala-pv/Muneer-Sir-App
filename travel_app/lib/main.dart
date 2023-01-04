@@ -74,6 +74,7 @@ class Home extends StatelessWidget {
                   onTap: () {
                     Navigator.pushNamed(context, 'placepage', arguments: {
                       'places': data[index]['places'],
+                      'name': data[index]['name'],
                     });
                   },
                   child: Container(
