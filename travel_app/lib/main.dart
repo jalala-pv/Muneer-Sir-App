@@ -56,7 +56,8 @@ class Home extends StatelessWidget {
                   ),
                 )
               ],
-            ),//
+            ),//y
+            
             Container(
               margin: EdgeInsets.only(top: 20, left: 20),
               alignment: Alignment.bottomLeft,
