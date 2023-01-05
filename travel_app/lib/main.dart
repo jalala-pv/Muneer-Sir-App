@@ -37,6 +37,8 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final height = MediaQuery.of(context).size.height;
+    final width = MediaQuery.of(context).size.width;
     return Scaffold(
       body: SafeArea(
         child: Column(
@@ -56,8 +58,8 @@ class Home extends StatelessWidget {
                   ),
                 )
               ],
-            ),//y
-            
+            ), //y
+
             Container(
               margin: EdgeInsets.only(top: 20, left: 20),
               alignment: Alignment.bottomLeft,
@@ -67,8 +69,8 @@ class Home extends StatelessWidget {
               ),
             ),
             SizedBox(
-              width: 400,
-              height: 250,
+              width:width ,
+              height:height/3 ,
               child: PageView.builder(
                 itemCount: data.length,
                 itemBuilder: (context, index) => GestureDetector(
@@ -79,8 +81,8 @@ class Home extends StatelessWidget {
                     });
                   },
                   child: Container(
-                    width: 400,
-                    height: 250,
+                    width:width ,
+                    height: height/2,
                     decoration: BoxDecoration(
                         image: DecorationImage(
                             image: NetworkImage(
@@ -148,8 +150,8 @@ class Home extends StatelessWidget {
               ),
             ),
             SizedBox(
-                height: 450,
-                width: 400,
+                height: height/2,
+                width: width,
                 child: ListView.builder(
                   itemCount: data.length,
                   itemBuilder: (context, index) => GestureDetector(
@@ -161,14 +163,14 @@ class Home extends StatelessWidget {
                     },
                     child: Container(
                       margin: EdgeInsets.only(top: 10),
-                      height: 150,
+                      height: height / 5,
                       decoration: BoxDecoration(),
                       child: Row(
                         children: [
                           Container(
                               margin: EdgeInsets.symmetric(horizontal: 20),
-                              height: 120,
-                              width: 120,
+                              height: height/2,
+                              width: width/3,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(15),
                                 image: DecorationImage(
@@ -205,7 +207,7 @@ class Home extends StatelessWidget {
                                   onRatingUpdate: (rating) {},
                                 ),
                                 Container(
-                                  width: 200,
+                                  width: width/2,
                                   child: Text(
                                     data[index]['desc'].toString(),
                                     overflow: TextOverflow.ellipsis,
