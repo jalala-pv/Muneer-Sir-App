@@ -59,37 +59,34 @@ class Home extends StatelessWidget {
                 )
               ],
             ), //y
-
-            Container(
-              margin: EdgeInsets.only(top: 20, left: 20),
-              alignment: Alignment.bottomLeft,
-              child: Text(
-                "Popular Places",
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-              ),
-            ),
+//delete
+     
             SizedBox(
-              width:width ,
-              height:height/3 ,
+              width: width,
+              height: height / 3,
               child: PageView.builder(
                 itemCount: data.length,
                 itemBuilder: (context, index) => GestureDetector(
                   onTap: () {
-                    Navigator.pushNamed(context, 'placepage', arguments: {
-                      'places': data[index]['places'],
-                      'name': data[index]['name'],
-                    });
+                    Navigator.pushNamed(
+                      context,
+                      'placepage',
+                      arguments: {
+                        'places': data[index]['places'],
+                        'name': data[index]['name'],
+                      },
+                    );
                   },
                   child: Container(
-                    width:width ,
-                    height: height/2,
+                    width: width,
+                    height: height / 2,
                     decoration: BoxDecoration(
                         image: DecorationImage(
                             image: NetworkImage(
                                 'https://picsum.photos/500/500?random=1'),
                             fit: BoxFit.cover),
                         borderRadius: BorderRadius.circular(20)),
-                    margin: EdgeInsets.symmetric(vertical: 15, horizontal: 20),
+                    margin: EdgeInsets.symmetric(vertical: height/400, horizontal: 20),
                     child: Container(
                       alignment: Alignment.bottomLeft,
                       child: Column(
@@ -98,7 +95,7 @@ class Home extends StatelessWidget {
                         children: [
                           Container(),
                           Container(
-                              margin: EdgeInsets.all(20),
+                              margin: EdgeInsets.all(height/50),
                               alignment: Alignment.topLeft,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -142,7 +139,7 @@ class Home extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.only(top: 20, left: 20),
+              margin: EdgeInsets.only(top: height/100, left: 20),
               alignment: Alignment.topLeft,
               child: Text(
                 "Places you might like",
@@ -150,7 +147,7 @@ class Home extends StatelessWidget {
               ),
             ),
             SizedBox(
-                height: height/2,
+                height: height / 2,
                 width: width,
                 child: ListView.builder(
                   itemCount: data.length,
@@ -162,15 +159,15 @@ class Home extends StatelessWidget {
                       });
                     },
                     child: Container(
-                      margin: EdgeInsets.only(top: 10),
+                      margin: EdgeInsets.only(top: height/100),
                       height: height / 5,
                       decoration: BoxDecoration(),
                       child: Row(
                         children: [
                           Container(
                               margin: EdgeInsets.symmetric(horizontal: 20),
-                              height: height/2,
-                              width: width/3,
+                              height: height / 2,
+                              width: width / 3,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(15),
                                 image: DecorationImage(
@@ -207,7 +204,7 @@ class Home extends StatelessWidget {
                                   onRatingUpdate: (rating) {},
                                 ),
                                 Container(
-                                  width: width/2,
+                                  width: width / 2,
                                   child: Text(
                                     data[index]['desc'].toString(),
                                     overflow: TextOverflow.ellipsis,

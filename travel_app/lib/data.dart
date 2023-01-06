@@ -6,19 +6,19 @@ List<Map<String, Object>> getData() {
       'rating': 3.2,
       'places': [
         {
-          'name': 'Valley Resort',
+          'name': 'Eravikulam national park',
           'desc': "Valley Resort is the second-largest city in the world",
           'rating': 4.1,
           'distance': '2.5km',
         },
         {
-          'name': 'Mounatin Resort',
+          'name': 'Mattupetty dam',
           'desc': "Valley Resort is the second-largest city in the world",
           'rating': 2.1,
           'distance': '1.5km',
         },
         {
-          'name': 'Leap City',
+          'name': 'Pothamedu view point',
           'desc': "Leap City is the second-largest city in the world",
           'rating': 2.1,
           'distance': '3.5km',
@@ -39,24 +39,24 @@ List<Map<String, Object>> getData() {
       ]
     },
     {
-      'name': 'Oodakayam',
+      'name': 'Manali',
       "desc": "Oodakkayam is Medium Cold And Good Place",
       'rating': 2.0,
       'places': [
         {
-          'name': 'Valley Resort',
+          'name': 'Hadimba Devi Temple',
           'desc': "Valley Resort is the second-largest city in the world",
           'rating': 4.1,
           'distance': '2.5km',
         },
         {
-          'name': 'Mounatin Resort',
+          'name': 'The Great Himalayan National Park(office)',
           'desc': "Valley Resort is the second-largest city in the world",
           'rating': 2.1,
           'distance': '1.5km',
         },
         {
-          'name': 'Leap City',
+          'name': 'Bhrigu Lake',
           'desc': "Leap City is the second-largest city in the world",
           'rating': 2.1,
           'distance': '3.5km',
@@ -77,24 +77,24 @@ List<Map<String, Object>> getData() {
       ]
     },
     {
-      'name': 'Kodekanal',
+      'name': 'wayanad',
       "desc": "Kodekanal is Very Cold And Good Place",
       'rating': 3.2,
       'places': [
         {
-          'name': 'Mounatin Resort',
+          'name': 'Lakkidi View Point ',
           'desc': "Valley Resort is the second-largest city in the world",
           'rating': 4.1,
           'distance': '2.5km',
         },
         {
-          'name': 'Mounatin Resort',
+          'name': 'Banasura Sagar Dam',
           'desc': "Valley Resort is the second-largest city in the world",
           'rating': 2.1,
           'distance': '1.5km',
         },
         {
-          'name': 'Leap City',
+          'name': 'Edakkal Caves',
           'desc': "Leap City is the second-largest city in the world",
           'rating': 2.1,
           'distance': '3.5km',
@@ -115,24 +115,24 @@ List<Map<String, Object>> getData() {
       ]
     },
     {
-      'name': 'Kozhikode',
+      'name': 'ooty',
       "desc": "Kozikode is Very Hot And Good Place",
       'rating': 4.0,
       'places': [
         {
-          'name': 'Valley Resort',
+          'name': 'Government Rose Garden',
           'desc': "Valley Resort is the second-largest city in the world",
           'rating': 4.1,
           'distance': '2.5km',
         },
         {
-          'name': 'Valley Resort',
+          'name': 'Tamilnadu Tourism Ooty Boat House',
           'desc': "Valley Resort is the second-largest city in the world",
           'rating': 2.1,
           'distance': '1.5km',
         },
         {
-          'name': 'Leap City',
+          'name': 'The Tea Factory & The Tea Museum',
           'desc': "Leap City is the second-largest city in the world",
           'rating': 2.1,
           'distance': '3.5km',
@@ -153,24 +153,24 @@ List<Map<String, Object>> getData() {
       ]
     },
     {
-      'name': 'Kakkayam',
+      'name': 'vagamon',
       "desc": "Kakkayam is Cold And Good Place",
       'rating': 4.8,
       'places': [
         {
-          'name': "Kariyahtmpara",
+          'name': "Vagamon Meadows",
           'desc': "Kariyahtmpara is the second-largest city in the world",
           'rating': 4.1,
           'distance': '20.5km',
         },
         {
-          'name': 'Beach',
+          'name': 'Marmala Waterfalls',
           'desc': "Deacj is the second-largest city in the world",
           'rating': 1.1,
           'distance': '41.5km',
         },
         {
-          'name': 'Leap City',
+          'name': 'Vagamon Kurishumala Church',
           'desc': "Leap City is the second-largest city in the world",
           'rating': 0.6,
           'distance': '3.5km',
