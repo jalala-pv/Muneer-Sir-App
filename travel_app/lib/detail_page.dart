@@ -23,7 +23,7 @@ class DetailPage extends StatelessWidget {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
               image: DecorationImage(
-                image: NetworkImage('https://picsum.photos/500/500?random=4'),
+                image: NetworkImage(args['url'].toString()),
                 fit: BoxFit.cover,
               ),
             ),

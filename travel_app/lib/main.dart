@@ -60,7 +60,7 @@ class Home extends StatelessWidget {
               ],
             ), //y
 //delete
-     
+
             SizedBox(
               width: width,
               height: height / 3,
@@ -77,6 +77,7 @@ class Home extends StatelessWidget {
                       },
                     );
                   },
+                  //pageview.builder
                   child: Container(
                     width: width,
                     height: height / 2,
@@ -86,7 +87,8 @@ class Home extends StatelessWidget {
                                 'https://picsum.photos/500/500?random=1'),
                             fit: BoxFit.cover),
                         borderRadius: BorderRadius.circular(20)),
-                    margin: EdgeInsets.symmetric(vertical: height/400, horizontal: 20),
+                    margin: EdgeInsets.symmetric(
+                        vertical: height / 400, horizontal: 20),
                     child: Container(
                       alignment: Alignment.bottomLeft,
                       child: Column(
@@ -95,7 +97,7 @@ class Home extends StatelessWidget {
                         children: [
                           Container(),
                           Container(
-                              margin: EdgeInsets.all(height/50),
+                              margin: EdgeInsets.all(height / 50),
                               alignment: Alignment.topLeft,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -139,7 +141,7 @@ class Home extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.only(top: height/100, left: 20),
+              margin: EdgeInsets.only(top: height / 100, left: 20),
               alignment: Alignment.topLeft,
               child: Text(
                 "Places you might like",
@@ -159,7 +161,7 @@ class Home extends StatelessWidget {
                       });
                     },
                     child: Container(
-                      margin: EdgeInsets.only(top: height/100),
+                      margin: EdgeInsets.only(top: height / 100),
                       height: height / 5,
                       decoration: BoxDecoration(),
                       child: Row(

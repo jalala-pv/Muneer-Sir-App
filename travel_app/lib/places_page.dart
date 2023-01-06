@@ -97,7 +97,7 @@ class PlacePages extends StatelessWidget {
               'image': null,
               'desc': args['places'][index]['name'],
               'distence': args['places'][index]['distence'],
-              'url': null,
+              'url': args['places'][index]['url'],
               'rating': args['places'][index]['rating']
             });
           },
