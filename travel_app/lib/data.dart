@@ -5,8 +5,7 @@ List<Map<String, Object>> getData() {
       "desc":
           "Munnar is a town in the Western Ghats mountain range in India’s Kerala state",
       'rating': 3.2,
-      'url':
-          "https://www.hillsandwills.com/blog_images/89554.jpg",
+      'url': "https://www.hillsandwills.com/blog_images/89554.jpg",
       'places': [
         {
           'name': 'Eravikulam national park',
@@ -183,15 +182,16 @@ List<Map<String, Object>> getData() {
         },
         {
           'name': 'Tamilnadu Tourism Ooty Boat House',
-          'desc': "Ooty lake is an artificial lake near Ooty in the Nilgiris district of Tamil Nadu, India. It covers an area of 65 acres. The boathouse on the lake is a major tourist attraction.",
+          'desc':
+              "Ooty lake is an artificial lake near Ooty in the Nilgiris district of Tamil Nadu, India. It covers an area of 65 acres. The boathouse on the lake is a major tourist attraction.",
           'rating': 2.1,
           'distance': '1.5km',
-          "url":
-              'https://www.ttdconline.com/_next/boat-house/ooty/3.jpg'
+          "url": 'https://www.ttdconline.com/_next/boat-house/ooty/3.jpg'
         },
         {
           'name': 'The Tea Factory & The Tea Museum',
-          'desc': "On an Ooty tea factory visit, one can hope to see some really amazing tea gardens. The tea factory and the tea museum in Ooty Tamil Nadu is a must visit when here, not just for the natural beauty of the place, but also for the historical significance of the artifacts in the museum.",
+          'desc':
+              "On an Ooty tea factory visit, one can hope to see some really amazing tea gardens. The tea factory and the tea museum in Ooty Tamil Nadu is a must visit when here, not just for the natural beauty of the place, but also for the historical significance of the artifacts in the museum.",
           'rating': 2.1,
           'distance': '3.5km',
           "url":
@@ -199,7 +199,8 @@ List<Map<String, Object>> getData() {
         },
         {
           'name': 'St. Stephens Church',
-          'desc': "St. Stephen's Church is a Roman Catholic church dedicated to Saint Stephen, located in the village of Kombuthurai in the Thoothukudi district of Tamil Nadu, India. The church was built by St. Francis Xavier in May 1544.[1] It was abandoned by the Jesuits until 1983. The church was taken care of by a people called the PatangatinsPattamkattins, according to the wished of St. Francis Xavier, who believed that they could take care of the work of Christianity in Thoothukudi as written in his letters.",
+          'desc':
+              "St. Stephen's Church is a Roman Catholic church dedicated to Saint Stephen, located in the village of Kombuthurai in the Thoothukudi district of Tamil Nadu, India. The church was built by St. Francis Xavier in May 1544.[1] It was abandoned by the Jesuits until 1983. The church was taken care of by a people called the PatangatinsPattamkattins, according to the wished of St. Francis Xavier, who believed that they could take care of the work of Christianity in Thoothukudi as written in his letters.",
           'rating': 4.2,
           'distance': '8.5km',
           "url":
@@ -218,50 +219,54 @@ List<Map<String, Object>> getData() {
     },
     {
       'name': 'vagamon',
-      "desc": "Kakkayam is Cold And Good Place",
+      "desc":
+          "Vagamon is an Indian hill station and a revenue village primarily located in Peerumedu taluk of Idukki district,",
       'rating': 4.8,
       'url': 'https://i.ytimg.com/vi/_RpCaiysryc/maxresdefault.jpg',
       'places': [
         {
           'name': "Vagamon Meadows",
-          'desc': "Kariyahtmpara is the second-largest city in the world",
+          'desc':
+              "Located in the Vagamon - Elappara route, Vagamon Meadows is the most popular place in Vagamon. The meadows are unique for their vastness and beauty. Here one will also find interlocked small ponds at the valley of several meadows. This is one of the major spots for film shooting in Vagamon. Different in each season, the hills change from lush to bare as the cycle of season rolls on. This is one place to be if you want to experience all the four seasons in Kerala.",
           'rating': 4.1,
           'distance': '20.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'https://pbs.twimg.com/media/DTK_51gU8AAeXWj?format=jpg&name=4096x4096'
         },
         {
           'name': 'Marmala Waterfalls',
-          'desc': "Deacj is the second-largest city in the world",
+          'desc':
+              "Located at a distance of few kms from Erattupetta in Kottayam inside a private rubber estate, Marmala Waterfalls are popularly known as the ‘enchantress of the jungle’. Plummeting from a height of 200 feet, the unblemished clear waters create an aura of mist around them. The tantalising waterfalls splash into a 12 feet pond and run down to join the river Teekoy.",
           'rating': 1.1,
           'distance': '41.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'https://www.holidify.com/images/cmsuploads/compressed/Marmala-waterfalls-kerala_20180430122850.jpg'
         },
         {
           'name': 'Vagamon Kurishumala Church',
-          'desc': "Leap City is the second-largest city in the world",
+          'desc':
+              "Kurisumala is a hill that is a must-visit for every spiritual seeker. The holy hill is surrounded by a mist that deep freezes all your worries and lets you experience a wave of serenity that soothes the soul of its visitors. Kurisumala is a Christian pilgrimage center that is surrounded by lush greenery and tea estates that add to the massive hill’s beauty and makes the experience more magical. ",
           'rating': 0.6,
           'distance': '3.5km',
-          "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+          "url": 'https://www.holidify.com/images/compressed/3701.jpg'
         },
         {
-          'name': 'Down City',
-          'desc': "Down City is the second-largest city in the universe",
+          'name': 'thangalpara',
+          'desc':
+              "At a distance of 3 km from Vagamon Pine Forest, and 7 km from Vagamon Bus Stop, Thangalpara is a sacred place situated at Kolahamedu in Vagamon. It is one of the popular places of pilgrimage in the Idukki district, and among the most beautiful Vagamon places to visit.",
           'rating': 3.2,
           'distance': '18.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'https://www.connectingtraveller.com/images/localtip/1634238662images%20-%202021-10-15T004040.806.jpeg'
         },
         {
-          'name': 'Long Run Town',
+          'name': 'Murugan Hill',
           'desc':
-              "Long RunTown is the second-largest city in the Earth's universe",
+              "At a distance of 4 km from Vagamon Bus Stop, Murugan Mala is a sacred mountain situated in Vagamon, Kerala. Located on Kurisumala-Thangalpara Road, it is one of the popular places of pilgrimage in the region, and among the top places to visit in Vagamon.Situated on the eastern side of Kurisumala Hill in Vagamon, Murugan Mala is a small hill famous for a splendid rock-cut temple dedicated to Lord Murugan, the son of Lord Shiva. Erected using a single rock, this temple is flocked by devotees from all over the country, every year.",
           'rating': 1.1,
           'distance': '9.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR_INoCjdMy4CCg2VT9lx8h6X2gWUisf0PjH1DsAkbrN3whVuu62KXfFQB54vX615d1D2gjfcX6A8oeJXpugn8-Kw'
         },
       ]
     }
