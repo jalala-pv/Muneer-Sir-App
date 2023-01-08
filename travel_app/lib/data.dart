@@ -6,7 +6,7 @@ List<Map<String, Object>> getData() {
           "Munnar is a town in the Western Ghats mountain range in India’s Kerala state",
       'rating': 3.2,
       'url':
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6HhNlfS4DQXgOtgVkZwXym2hl5F89qPPLbQ&usqp=CAU",
+          "https://www.hillsandwills.com/blog_images/89554.jpg",
       'places': [
         {
           'name': 'Eravikulam national park',
@@ -112,101 +112,107 @@ List<Map<String, Object>> getData() {
     },
     {
       'name': 'wayanad',
-      "desc": "Kodekanal is Very Cold And Good Place",
+      "desc":
+          "Wayanad, the green paradise is nestled among the mountains of the Western Ghats, forming the border world of the greener part of Kerala. ",
       'rating': 3.2,
       'url':
           'https://tds.indianeagle.com/wp-content/uploads/2022/09/wayanad-Places.png',
       'places': [
         {
           'name': 'Lakkidi View Point ',
-          'desc': "Valley Resort is the second-largest city in the world",
+          'desc':
+              "Famous for its mesmerising scenery, Lakkidi View Point is known for its nine hairpin caves and offers a resplendent view of the mountains in Wayanad. The whole trip of Lakkidi View Point promises an unforgettable charm of natural beauty that should add to their bucket list of attractions in Wayanad. ",
           'rating': 4.1,
           'distance': '2.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'http://www.raindropsresorts.com/blog/wp-content/uploads/2019/05/lakkidi-view-point.jpg'
         },
         {
           'name': 'Banasura Sagar Dam',
-          'desc': "Valley Resort is the second-largest city in the world",
+          'desc':
+              "Another tourist attraction of Kalpetta is Banasura Sagar dam. It is the largest earth dam in India and the second largest of its kind in Asia. The dam is made up of massive stacks of stones and boulders.",
           'rating': 2.1,
           'distance': '1.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'https://th-i.thgim.com/public/incoming/uyjycv/article65740263.ece/alternates/FREE_1200/CCI_Hindu_NewsDeskR6_GR7AQFT1.1.jfif'
         },
         {
           'name': 'Edakkal Caves',
-          'desc': "Leap City is the second-largest city in the world",
+          'desc':
+              "The Edakkal caves are two natural caves at a remote location at Edakkal, 25 km from Kalpetta in the Wayanad district of Kerala in India's Western Ghats. They lie 1,200 m above sea level on Ambukutty Mala, near an ancient trade route connecting the high mountains of Mysore to the ports of the Malabar coast.",
           'rating': 2.1,
           'distance': '3.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'https://www.keralatourism.org/images/destination/mobile/edakkal_caves20131106153318_335_1.jpg'
         },
         {
-          'name': 'Mounatin City',
-          'desc': "Down City is the second-largest city in the universe",
+          'name': 'kuruva island',
+          'desc':
+              "Kuruvadweep or Kuruva Island is a 950-acre protected river delta. It comprises three densely wooded uninhabited islands and a few submergible satellite islands, which lies on the banks of the tributaries of Kabini River in the Wayanad district, Kerala, India.",
           'rating': 4.2,
           'distance': '8.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'https://images.thrillophilia.com/image/upload/s--DjNCM0xQ--/c_fill,h_775,q_auto,w_1600/f_auto,fl_strip_profile/v1/images/photos/000/004/468/original/Bamboo_Rafting_in_Kuruva_Island__(4).jpg.jpg?1458193499'
         },
         {
-          'name': 'Mounatin Run Town',
+          'name': 'muthanga wildlife sanctuary',
           'desc':
-              "Long RunTown is the second-largest city in the Earth's universe",
+              "Located around 16 km away from Sulthan Bathery, the Wayanad Wildlife Sanctuary, popularly known as Muthanga Wildlife Sanctuary is a rainforest wich connects Nagarhole and Bandipur parks in Karnataka and Mudumalai in Tamil Nadu. Spread over an area of 345 sq km, the sanctuary is an abode of rich flora and fauna.",
           'rating': .1,
           'distance': '9.5km',
-          "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+          "url": 'https://i.ytimg.com/vi/w235LqYbQpg/maxresdefault.jpg'
         },
       ]
     },
     {
       'name': 'ooty',
-      "desc": "Kozikode is Very Hot And Good Place",
+      "desc":
+          "Ooty (short for Udhagamandalam) is a resort town in the Western Ghats mountains, in southern India's Tamil Nadu state.",
       'rating': 4.0,
       'url':
           'https://static.wixstatic.com/media/012323_7be29c92ca6d459b95df381c072f09d5~mv2.jpg/v1/fit/w_1024,h_576,al_c,q_80,enc_auto/file.jpg',
       'places': [
         {
           'name': 'Government Rose Garden',
-          'desc': "Valley Resort is the second-largest city in the world",
+          'desc':
+              "The pride of Ooty lies in the Rose Garden, which belongs to an elite club of 35 rose gardens around the world which has won the Garden of Excellence Award for South Asia from the World Federation of Rose Societies. Containing more than twenty thousand varieties of roses, the Rose Garden is one of the most beautiful and well maintained gardens you find in the country, or perhaps, the world. The climate of Ooty is ideal for the plants to have a long blooming season.",
           'rating': 4.1,
           'distance': '2.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'https://www.hoteldekho.com/storage/img/tourattraction/1650630118Government%20Rose%20Garden%20in%20Ooty.jpg'
         },
         {
           'name': 'Tamilnadu Tourism Ooty Boat House',
-          'desc': "Valley Resort is the second-largest city in the world",
+          'desc': "Ooty lake is an artificial lake near Ooty in the Nilgiris district of Tamil Nadu, India. It covers an area of 65 acres. The boathouse on the lake is a major tourist attraction.",
           'rating': 2.1,
           'distance': '1.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'https://www.ttdconline.com/_next/boat-house/ooty/3.jpg'
         },
         {
           'name': 'The Tea Factory & The Tea Museum',
-          'desc': "Leap City is the second-largest city in the world",
+          'desc': "On an Ooty tea factory visit, one can hope to see some really amazing tea gardens. The tea factory and the tea museum in Ooty Tamil Nadu is a must visit when here, not just for the natural beauty of the place, but also for the historical significance of the artifacts in the museum.",
           'rating': 2.1,
           'distance': '3.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'https://ootytourism.co.in/images/headers/ooty-tea-estate-view-point-tourism-entry-fee-timings-holidays-reviews-header.jpg'
         },
         {
-          'name': 'Down City',
-          'desc': "Down City is the second-largest city in the universe",
+          'name': 'St. Stephens Church',
+          'desc': "St. Stephen's Church is a Roman Catholic church dedicated to Saint Stephen, located in the village of Kombuthurai in the Thoothukudi district of Tamil Nadu, India. The church was built by St. Francis Xavier in May 1544.[1] It was abandoned by the Jesuits until 1983. The church was taken care of by a people called the PatangatinsPattamkattins, according to the wished of St. Francis Xavier, who believed that they could take care of the work of Christianity in Thoothukudi as written in his letters.",
           'rating': 4.2,
           'distance': '8.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSDFQ-QYm-vE0xvpm8KC1j9IRGappwdops1Ew25mM1x_dzwEfz1TMzpw0BYO_gNO1j5L3LhQ_KmjNZ3pw6nD-R7iw'
         },
         {
-          'name': 'Long Run Town',
+          'name': 'Government Botanical Garden',
           'desc':
-              "Long RunTown is the second-largest city in the Earth's universe",
+              "The Government Botanical Garden is a botanical garden in Udhagamandalam, near Coimbatore, Tamil Nadu state, India laid out in 1848. The gardens, divided into several sections, cover an area of around 55 acres, and lie on the lower slopes of Doddabetta peak. The garden has a terraced layout. It is maintained by the Tamil Nadu Horticulture Department. ",
           'rating': .1,
           'distance': '9.5km',
           "url":
-              'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1hjItDYbjbEZPt46LBP1yS3iCHVgUjgovrXVg6vxNDxJQ4Z72konWNGsRNb52Tq4P1Lf2PBILNm5suMnsczMX2Q'
+              'https://media-cdn.tripadvisor.com/media/photo-s/10/a3/0a/46/beautiful-botanical-garden.jpg'
         },
       ]
     },

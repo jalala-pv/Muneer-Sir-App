@@ -61,7 +61,7 @@ class Home extends StatelessWidget {
                 )
               ],
             ), //y
-//delete
+
 
             SizedBox(
               width: width,
@@ -231,8 +231,7 @@ class Home extends StatelessWidget {
 
   }
   dynamic getData0() async {
-     await FirebaseFirestore.instance.collection('data').doc().get().then((value) async => { 
-      print(value)
-     });
+var a= await FirebaseFirestore.instance.collection('data').snapshots();
+print(a);
   }
 }
