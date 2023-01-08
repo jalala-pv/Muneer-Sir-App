@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "212525107906",
+    "project_id": "travel-app-aa137",
+    "storage_bucket": "travel-app-aa137.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212525107906:android:4e928f1c204358e0ae495b",
+        "android_client_info": {
+          "package_name": "me.muneer.travel_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212525107906-dh1l92r6n36b5iiat3d2koc9f162qr52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcbbU0L06uA6JVFDAE-Ex5RiBkwTIDbmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212525107906-dh1l92r6n36b5iiat3d2koc9f162qr52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

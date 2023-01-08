@@ -5,9 +5,11 @@ import 'package:flutter/material.dart';
 import 'package:travel_app/detail_page.dart';
 import 'package:travel_app/places_page.dart';
 import 'package:travel_app/data.dart';
-
+import 'package:firebase_core/firebase_core.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 void main() {
   runApp(MyApp());
+  Firebase.initializeApp();
 }
 
 class MyApp extends StatelessWidget {
@@ -50,10 +52,10 @@ class Home extends StatelessWidget {
                 Container(
                   child: IconButton(
                     icon: Icon(Icons.search),
-                    onPressed: () {
-                      if (kDebugMode) {
-                        print('search clicked');
-                      }
+                    onPressed: () async {
+                      
+                        await getData0();
+                      
                     },
                   ),
                 )
@@ -84,7 +86,7 @@ class Home extends StatelessWidget {
                     decoration: BoxDecoration(
                         image: DecorationImage(
                             image: NetworkImage(
-                                'https://picsum.photos/500/500?random=1'),
+                                data[index]['url'].toString()),
                             fit: BoxFit.cover),
                         borderRadius: BorderRadius.circular(20)),
                     margin: EdgeInsets.symmetric(
@@ -174,7 +176,7 @@ class Home extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(15),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                        'https://picsum.photos/500/500?random=$index'),
+                                        data[index]['url'].toString()),
                                     fit: BoxFit.cover),
                               )),
                           Container(
@@ -224,6 +226,13 @@ class Home extends StatelessWidget {
           ],
         ),
       ),
-    );
+    ); 
+
+
+  }
+  dynamic getData0() async {
+     await FirebaseFirestore.instance.collection('data').doc().get().then((value) async => { 
+      print(value)
+     });
   }
 }

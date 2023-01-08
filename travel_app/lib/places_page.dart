@@ -95,7 +95,7 @@ class PlacePages extends StatelessWidget {
             Navigator.pushNamed(context, 'detailpage', arguments: {
               'name': args['places'][index]['name'],
               'image': null,
-              'desc': args['places'][index]['name'],
+              'desc': args['places'][index]['desc'],
               'distence': args['places'][index]['distence'],
               'url': args['places'][index]['url'],
               'rating': args['places'][index]['rating']
@@ -107,7 +107,7 @@ class PlacePages extends StatelessWidget {
                 image: DecorationImage(
                     fit: BoxFit.cover,
                     image: NetworkImage(
-                        'https://picsum.photos/500/500?random=$index'))),
+                           args['places'][index]['url']))),
             margin: EdgeInsets.all(20.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
