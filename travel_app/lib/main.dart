@@ -7,6 +7,7 @@ import 'package:travel_app/places_page.dart';
 import 'package:travel_app/data.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+
 void main() {
   runApp(MyApp());
   Firebase.initializeApp();
@@ -53,15 +54,12 @@ class Home extends StatelessWidget {
                   child: IconButton(
                     icon: Icon(Icons.search),
                     onPressed: () async {
-                      
-                        await getData0();
-                      
+                      await getData0();
                     },
                   ),
                 )
               ],
             ), //y
-
 
             SizedBox(
               width: width,
@@ -85,8 +83,7 @@ class Home extends StatelessWidget {
                     height: height / 2,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: NetworkImage(
-                                data[index]['url'].toString()),
+                            image: NetworkImage(data[index]['url'].toString()),
                             fit: BoxFit.cover),
                         borderRadius: BorderRadius.circular(20)),
                     margin: EdgeInsets.symmetric(
@@ -226,12 +223,15 @@ class Home extends StatelessWidget {
           ],
         ),
       ),
-    ); 
-
-
+    );
   }
+
   dynamic getData0() async {
-var a= await FirebaseFirestore.instance.collection('data').snapshots();
-print(a);
+    await FirebaseFirestore.instance
+        .collection('data')
+        .doc('india')
+        .set({'place': 'manali'});
+
+    print('search clicked');
   }
 }
